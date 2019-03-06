@@ -9,5 +9,17 @@
         "anhskohbo/no-captcha": "^3.0"
     },
     "license": "MIT",
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "IwPackages\\RecaptchaService\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IwPackages\\RecaptchaService\\Providers\\RecaptchaServiceProvider"
+            ]
+        }
+    }
 }
