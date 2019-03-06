@@ -1,0 +1,13 @@
+{
+    "name": "iw/recaptchaservice",
+    "description": "Custom recaptcha service helper for IW Laravel projects",
+    "type": "library",
+    "require": {
+        "anhskohbo/no-captcha": "^3.0"
+    },
+    "require-dev": {
+        "anhskohbo/no-captcha": "^3.0"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev"
+}
